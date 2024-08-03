@@ -1,4 +1,4 @@
-import {landingpage} from '../assets'
+// import {landingpage} from '../assets/img'
 
 export const navLink = [
     {
@@ -17,7 +17,7 @@ export const navLink = [
 ];
 export const listProjects = [    
     {
-        image: landingpage
+      
 
     }
 ]

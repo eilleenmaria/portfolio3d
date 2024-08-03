@@ -97,7 +97,7 @@ const Projects = () => {
         <Tilt  className={`max-w-sm flex flex-col justify-center items-center transform-style-3d border-4 bg-gray-700  border-gray-200/20 py-6 border-double rounded-lg`}
           perspective={800} glareEnable={true} glareMaxOpacity={0.45} scale={1.1}
           tiltMaxAngleX={40} tiltMaxAngleY={40} transitionSpeed={1500} gyroscope={true}>
-          <img src= {`${listProjects.image}`}  className='w-60 bg-no-repeat bg-contain bg-center'/>
+          <img src= "" className='w-60 bg-no-repeat bg-contain bg-center'/>
         </Tilt>
        
         </div>
