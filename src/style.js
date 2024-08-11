@@ -17,8 +17,8 @@ const styles = {
     "font-black text-white/50 lg:text-[60px] sm:text-[40px] xs:text-[40px] text-[24px] lg:leading-[98px] mt-2",
     pAbout:
     "text-[#dfd9ff] font-medium lg:text-[26px] sm:text-[23px] xs:text-[20px] text-[16px] lg:leading-[40px]",
-    tilAbout:
-    "w-2/3  flex flex-col justify-center items-center transform-style-3d border-4 bg-gray-700  border-gray-200/20 py-6 border-double rounded-lg"
+    tilParallax:
+    " flex flex-col justify-center items-center transform-style-3d border-4 bg-gray-700  border-gray-200/20  border-double rounded-lg"
     
 };
 

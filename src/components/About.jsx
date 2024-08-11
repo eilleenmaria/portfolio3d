@@ -19,7 +19,7 @@ const About = () => {
      
       <div className="flex  flex-col md:justify-center ">
         <div className="flex justify-center items-center my-6 ">
-          <Tilt  className={`${styles.tilAbout} background-stripes`}
+          <Tilt  className={`${styles.tilParallax} w-2/3 py-6 background-stripes`}
                             perspective={500} glareEnable={true} glareMaxOpacity={0.45} scale={1.02}>
             <div className="flex flex-col justify-center items-center  translate-z-20 w-2/3 h-full
                             overflow-hidden whitespace-normal">
@@ -35,7 +35,7 @@ const About = () => {
           </Tilt>
         </div>
         <div className="flex justify-center items-center my-6">
-          <Tilt  className= {`${styles.tilAbout} background-stripes`}  perspective={500} glareEnable={true}
+          <Tilt  className= {`${styles.tilParallax} w-2/3 py-6 background-stripes`}  perspective={500} glareEnable={true}
                             glareMaxOpacity={0.45} scale={1.02}>
             <div className=" py-6 flex flex-col justify-center items-center  translate-z-20 w-2/3 h-full overflow-hidden whitespace-normal">
             <p className={`${styles.pAbout} mt-2  text-white/50 text-center  `}>
@@ -48,7 +48,7 @@ const About = () => {
           </Tilt>
         </div>
         <div className="flex justify-center items-center my-6">
-          <Tilt  className={`${styles.tilAbout} background-stripes`} perspective={500} glareEnable={true} glareMaxOpacity={0.45}
+          <Tilt  className={`${styles.tilParallax}  w-2/3 py-6 background-stripes`} perspective={500} glareEnable={true} glareMaxOpacity={0.45}
                             scale={1.02}>
             <div className=" flex flex-col justify-center items-center py-6 translate-z-20 w-2/3 h-full overflow-hidden whitespace-normal">
             <p className={`${styles.pAbout} mt-2  text-white/50 text-center`}>

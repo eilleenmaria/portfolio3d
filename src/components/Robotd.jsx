@@ -5,6 +5,7 @@ import { Canvas} from '@react-three/fiber';
 import WrapError from '../helpers/WrapError';
 import CameraPositionLogger from '../helpers/CameraPositionLogger';
 import Loader from './Loader';
+import { startTransition } from 'react';
 
 
 
@@ -19,7 +20,7 @@ const Robotd = () => {
         <WrapError >
             <Suspense fallback={<Loader/>}>
               <Stage adjustCamera intensity={0.5} shadows="contact" environment="city">
-             
+              
               <CompRobot castShadow scene = {scene} animations = {animations}/>
               
               </Stage>
