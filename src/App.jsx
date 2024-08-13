@@ -6,26 +6,28 @@ import Projects from "./components/Projects"
 import Footers from "./components/Footers"
 import { Suspense } from "react"
 import Loader from "./components/Loader"
+import WrapError from "./helpers/WrapError";
 
 function App() {
   return (
     <Router>      
       <Nav/>
       <Routes> 
-          <Route path="/" element={<Home/>}/>  
+          <Route path="/" element={<WrapError><Home/></WrapError>}/>  
           <Route
-              path="about"
+              path="/about"
               element={
                 <Suspense fallback={<Loader/>}>
-                  <About />
+                  <WrapError>  <About /></WrapError>
+                
                 </Suspense>
               }
             /> 
             <Route
-              path="projects"
+              path="/projects"
               element={
                 <Suspense fallback={<Loader/>}>
-                  <Projects />
+                  <WrapError> <Projects /></WrapError>                 
                 </Suspense>
               }
             />     
