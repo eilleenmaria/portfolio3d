@@ -10,9 +10,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <WrapError>
       <App />
-   </WrapError>
-  
-   
-   
+   </WrapError>   
   </React.StrictMode>,
 )
