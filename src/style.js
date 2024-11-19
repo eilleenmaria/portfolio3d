@@ -1,3 +1,5 @@
+import { texture } from "three/examples/jsm/nodes/Nodes.js";
+
 const styles = {
     paddingX: "sm:px-16 px-6",
     paddingY: "sm:py-16 py-6",
@@ -18,8 +20,9 @@ const styles = {
     pAbout:
     "text-[#dfd9ff] font-medium lg:text-[26px] sm:text-[23px] xs:text-[20px] text-[16px] lg:leading-[40px]",
     tilParallax:
-    " flex flex-col justify-center items-center transform-style-3d border-4 bg-gray-700  border-gray-200/20  border-double rounded-lg"
-    
+    " flex flex-col justify-center items-center transform-style-3d border-4 bg-gray-700  border-gray-200/20  border-double rounded-lg",
+    textProjects:
+    "lg:text-[30px] sm:text-[23px] xs:text-[20px]"
 };
 
 export {styles};
