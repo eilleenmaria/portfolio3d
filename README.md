@@ -2,7 +2,7 @@
 ### React vite application with animation react three fiber and react three drei.
 <br>
 
-<img src="/src/assets/img/portfolio3d.png" width="800">
+<img src="src\assets\img\projects\portfolio3d.png" width="800">
 <br>
 
 ### yarn init
